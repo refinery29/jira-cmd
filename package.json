@@ -1,31 +1,30 @@
 {
-  "name": "jira-cmd",
-  "description": "Another JIRA Command Line Interface",
-  "version": "0.2.0",
-  "author": "Germán Robledo <germanrcuriel@gmail.com>",
+  "name": "jira-cmd-r29",
+  "version": "0.3.1",
+  "description": "jira command line for r29",
   "dependencies": {
     "commander": "~1.1.1",
-    "requirejs": "~2.1.5",
-    "superagent": "~0.13.0",
-    "cli-table": "~0.2.0"
+    "cli-table": "~0.2.0",
+    "requirejs": "~2.1.15",
+    "superagent": "~0.13.0"
   },
   "engines": {
     "node": ">= 0.8"
   },
-  "keywords": [
-    "jira",
-    "api",
-    "client",
-    "command",
-    "cli",
-    "tool"
-  ],
-  "license": "MIT",
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/germanrcuriel/jira-cmd.git"
+    "url": "(git://github.com/refinery29/jira-cmd-r29)"
   },
   "bin": {
     "jira": "./bin/jira.js"
-  }
+  },
+  "keywords": [
+    "r29"
+  ],
+  "author": "Bryant Rockoff <brockoffdev@gmail.com>",
+  "license": "MIT"
 }
