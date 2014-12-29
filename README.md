@@ -2,7 +2,7 @@
 
 A Jira command line interface based on [jilla](https://github.com/godmodelabs/jilla).
 
-[![NPM](https://nodei.co/npm/jira-cmd.png?downloads=true&stars=true)](https://nodei.co/npm/jira-cmd/)
+[![NPM](https://nodei.co/npm/jira-cmd-r29.png?downloads=true&stars=true)](https://nodei.co/npm/jira-cmd/)
 
 ## Installation
 
@@ -10,14 +10,15 @@ Install [node.js](http://nodejs.org/).
 
 Then, in your shell type:
 
-    $ npm install -g jira-cmd
+    $ npm install -g jira-cmd-r29
 
 ## Usage
 
 ##### First use
+**NOTE: This Jira Command Line is preconfigured for use with Refinery29's JIRA.**
+**If you wish to use a different JIRA org, configure your page in lib/auth.js**
 
     $ jira
-    Jira URL: https://jira.atlassian.com/
     Username: xxxxxx
     Password: xxxxxx
     Information stored!
@@ -62,4 +63,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
